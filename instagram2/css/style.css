@@ -1,0 +1,238 @@
+*{
+   border: 0;
+   padding: 0;
+}
+body{
+    background: rgb(73, 104, 114);
+ }
+nav{
+    background: #A6BAC5;
+}   
+.nav-bar{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+.instagram-icon{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.instagram-icon span{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color-adjust: none;
+}
+.instagram-icon h1{
+    padding-left: 5px;
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+}
+.instagram-icon img{
+    margin-left: 6px;
+    margin-top: -9px;
+    width: 144px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+}
+.botton{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton1{
+    background: #7ea5a9;
+    
+}
+.boton1:hover{
+    background: #728f91;
+    
+}
+.settings{
+    width: 5%;
+    font-size: 17px;
+    display: flex;
+}
+.settings-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav{
+    padding-top: 50px;
+    background: #728f91;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.nav-item a i{
+    align-items: center;
+    padding: 3px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(36, 60, 104);
+    font-size: 20px;
+    border-radius: 4px
+}
+/*INICIO CODIGO VISTA DE POSTS EN FILAS Y COLUMANS*/
+
+.tabgen{
+    margin-top: -16px;
+}
+.fila{
+    width: 100%;
+    height: 220px;
+    display: flex; 
+}
+.column{
+    height: 100%;
+    width: 40%;
+    padding: 1px;
+}
+.column a img:hover{
+    opacity: 1000%;
+    background: red;
+}
+.column a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/*INICIO CODIGO VISTA DE POSTS EN COLUMNA*/
+
+.post-container{
+    width: 100%;
+    height: 672px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    display: flex; 
+    justify-content: center;
+}
+.post{
+    width: 550px;
+    background: rgb(40, 83, 124);
+    border-radius: 8px;
+    padding: 5px;
+}
+.post-header{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.post-header a{
+    text-decoration: none;
+}
+.post-header h2{
+    font-size: 25px;
+    color: rgb(43, 133, 136);
+}
+.post-header span{
+    font-size: 20px;
+    margin-right: 5px;
+    color:rgb(43, 133, 136);
+}
+.post-img{
+    width: auto;
+    height: 75%;
+}
+.post-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.post-footer{
+    width: 100%;
+    height: 20%;
+}
+.post-footer-likes{
+    width: 100%;
+    height: 20%;
+}
+.post-footer-likes button{
+    text-decoration: none;
+    background: none;
+    color: rgb(118, 218, 218);
+}
+.post-footer-text{
+    width: 100%;
+    height: 60%;
+}
+.post-footer-coment{
+    width: 100%;
+    height: 20%;
+}
+.post-footer-coment button{
+    padding-left: 0px;
+    background: none;
+}
+.icon-points i{
+    padding-left: 427px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modalbox{
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+
+}
+.modal-icons{
+    padding-top: 8px; 
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    
+}
+.icon-modal{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font: black;
+    border: 1px solid #245f68;
+    border-radius: 5px;
+}
+
+.cargen{
+    background:rgb(167, 159, 159);
+  }

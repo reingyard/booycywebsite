@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='css/bootstrap.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <script src='main.js'></script>
+</head>
+
+<body>
+
+  <!--BARRA DE NAVEGACION-->
+
+  <nav class="nav-bar">
+    <div class="instagram-icon">
+      <span><a class="icon1" href="#"><i class="fab fa-instagram"></i></a></span>
+      <img src="./icons/imagen_instagram - copia.png">
+    </div>
+    <div class="botton">
+      <button type="button" class="boton1 btn" data-toggle="modal" data-target="#exampleModal">
+        Create a new post
+      </button>
+    </div>
+    <div class="settings">
+      <li class="settings-icon">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-cog"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Log Out</a>
+        </div>
+      </li>
+    </div>
+  </nav>
+
+  <!--BARRA PARA VER DOS VENTANAS-->
+
+  
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+          aria-selected="true"><i class="fas fa-th"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+          aria-controls="pills-profile" aria-selected="false"><i class="fas fa-align-justify"></i></a>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      
+      
+      
+      
+     <!--INICIO CODIGO VISTA DE POSTS EN FILAS Y COLUMNAS--> 
+      
+    <div class="tabgen tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+<div class="container">
+        <div class="fila">
+            <div class="column">
+                <a href="#"><img src="./photos/photo1.jpg"></a>
+            </div>
+            <div class="column">
+                <a href="#"><img src="./photos/photo2.jpg"></a>   
+            </div>
+            <div class="column">
+                <a href="#"><img src="./photos/photo3.jpg"></a>
+            </div>
+          </div>
+          <div class="fila">
+            <div class="column">
+                <a href="#"><img src="./photos/photo4.jpg"></a>
+            </div>
+            <div class="column">
+                <a href="#"><img src="./photos/photo5.jpg"></a>
+            </div>
+            <div class="column">
+                <a href="#"><img src="./photos/photo6.png"></a>
+            </div>
+          </div>
+          <div class="fila">
+            <div class="column">
+                <a href="#"><img src="./photos/photo7.jpg"></a>
+            </div>
+            <div class="column">
+                <a href="#"><img src="./photos/photo8.png"></a>
+            </div>
+            <div class="column">
+                <a href="#"><img src="./photos/photo9.jpg"></a>
+            </div>
+          </div>
+</div>
+
+
+
+    </div>
+       
+         
+
+
+
+
+
+    <!--INICIO CODIGO VISTA DE POSTS EN COLUMNA-->
+     
+    <div class="tabgen2 tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    
+    
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Booyci Lee</h2></a>
+              <span>1/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo1.jpg">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>45.087 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Yung Xhrist</h2></a>
+              <span>2/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo2.jpg">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>666.667 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours.</p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Mon_and_dad</h2></a>
+              <span>3/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo3.jpg">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>234.132 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Princess Bubblegum</h2></a>
+              <span>4/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo4.jpg">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>776.675 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <h2>Suicideboys</h2>
+              <a href="#"><span>5/9</span></a>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo5.jpg">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>666.616 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Christ crying</h2></a>
+              <span>6/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo6.png">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>23.422 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Yung Xhrist</h2></a>
+              <span>7/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo7.jpg">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>983.542 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Yung Xhrist</h2></a>
+              <span>8/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo8.png">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>45.087 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="post-container">
+          <div class="post">
+            <div class="post-header">
+              <a href="#"><h2>Tatto Pub</h2></a>
+              <span>9/9</span>
+            </div>
+            <div class="post-img">
+              <img src="./photos/photo9.jpg">
+            </div>
+            <div class="post-footer">
+              <div class="post-footer-likes">
+                <button><span>390.422 Likes</span></button>
+              </div>
+              <div class="post-footer-text">
+                <p>Resurrection plants are perennial plants that can survive years of neglect and drought conditions.
+                  .
+                  .
+                  The fernlike plant turns brown and shrivels up when it doesn't have water for more than 24 hours. </p>
+              </div>
+              <div class="post-footer-coment">
+                <button><i class="far fa-heart"></i></button>
+                <button><span>Comment...</span></button>
+                <button><span class="icon-points"><i class="fas fa-ellipsis-v"></i></span></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+    
+    
+      </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--VENTANA EMERGENTE CUANDO DAS CLICK A NEW POST-->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="modal-icons">
+            <div class="icon-modal">
+              <a href="#"><i class="fas fa-camera"></i></a>
+            </div>
+            <div class="icon-modal">
+              <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-secondary">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

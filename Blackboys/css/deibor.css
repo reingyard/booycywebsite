@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+body{
+    padding: 20px;
+    background-image: url("../img/welcome.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.jumbotron{
+    padding: 20px;
+    height: 20%;
+    background: rgb(192, 180, 180, 0.3);
+    border-radius: 20px;
+}
+.jumbocont{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.icon-photographer{
+    padding: 0;
+    height: 100%;
+    width: 30%;
+}
+.icon-photographer img{
+    border-radius: 50%;
+    width: 100%;
+
+}
+.contacts{
+    padding: 0 !important;
+    width: 70%;
+}
+.contacts h1{
+    font-family: 'Playfair Display SC', serif;
+    height: 20%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.contacts-gen{
+    height: 80%;
+}
+.contacts-box{
+    padding: 20px;
+    width: 33%;
+    height: 100%;
+}
+.contacts-box h4{
+    margin-bottom: 25px;
+}
+.contacts-box ul p{
+    margin-top: 5px;
+}
+.contacts-box ul a{
+    text-decoration: none;
+    color: black;
+}
+.bottom3{
+    background:rgb(192, 180, 180, 0.8);
+    color: rgb(66, 61, 61);
+    font-weight: bold; 
+}
+.nav-item a:hover{
+    color: rgb(20, 19, 19) !important;
+}
+.grupodecartas{
+    margin-top: 3%;
+}
+.card{
+    border:none;
+    background:rgb(192, 180, 180, 0.5);
+}
+
+/*COMIENZO DEL FOOTER MODAL DE CARTAS EN GRUPO*/
+.botonfalso{
+    background: none;
+    border: 0;
+}
+/*COMIENZO DEL CAROUSEL*/
+.carrusel{
+    padding: 10%;
+}
+/*COMIENZO DE LAS CARTAS DEL FOOTER*/
+.modal-header img{
+    width: -webkit-fill-available ;
+}
+/*Footer original*/
+footer{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+}
+.footer i{
+font-size: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(199, 183, 183);
+background: none;
+}
