@@ -683,7 +683,15 @@ input:required {
   z-index: 2;
   width: 100%;
   height: 880px;
-  background-color: #fc6060; }
+  background-image: url(./img/bg-img/reing1.JPG) !important;
+ }
+ .single-welcome-slide2 {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 880px;
+  background-image: url(./img/bg-img/reing2.JPG) !important;
+ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
       height: 750px; } }
@@ -953,7 +961,8 @@ input:required {
 .breadcrumb-area {
   position: relative;
   z-index: 1;
-  height: 370px; }
+  height: 370px;
+background-image: url("./img/bg-img/reing11.JPG") ;}
   @media only screen and (max-width: 767px) {
     .breadcrumb-area {
       height: 240px; } }
